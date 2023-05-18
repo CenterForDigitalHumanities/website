@@ -41,6 +41,10 @@ The IIIF Presentation API proved extendable for this technology as well and the 
 * [Masking or identifying the region of a page which contains a map](https://github.com/IIIF/iiif-stories/issues/127)
 * [Using IIIF Maps in a GIS System](https://github.com/IIIF/iiif-stories/issues/126)
 
+## Future Work
+Have we decided on use cases to approach, or are we in the research/discussion phase of what we should do next?
+
+
 ### New Work Around Geolocating (that would require a new spec or extension or at a mimimum a recipe)
 * [Expressing Viewcones using navPlace]()
 * [Using navDate and navPlace Together]()
