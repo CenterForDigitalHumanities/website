@@ -19,13 +19,13 @@ During discussions in the Maps Community group it has become clear that to add G
 ## Scope
 It is the intention of this group to create a number of [IIIF Extensions]({{ site.api_url | absolute_url }}/extension/) and avoid changing the core IIIF specifications. If after a period of time and if there is wide implementation of these extensions there may be a case made to import them into the Presentation API.  
 
-During the course of its work, IIIF Maps TSG has has encoutered wider Geo and IIIF issues. We anticpate this trend will continue, and we will do all we can to ensure a seamless operation between web resources and geospatial data on the web.
+During the course of its work, IIIF Maps TSG has has encoutered wider Geo and IIIF issues. We anticpate this trend will continue, and we will do all we can to ensure a seamless operation between the resources we use and geospatial data on the web.
 
-## Initial Deliverables
-The following items were completed in its inaugural years.
+## Completed Work
+The following items from the original charter were completed in IIIF Maps TSG's inaugural years.
 
 #### An interoperable method to link IIIF content to a Geo Location for the purposes of presentation and/or navigation.
-IIIF had already incorporated Web Annotation which allows for the linking of external data to internal resources.  In order for that external data to be geospatial, an ontology for geospatial descriptors was required.  IIIF Maps TSG focused on GeoJSON, and in particular GeoJSON-LD, for the existing Linked Data vocabulary.  GeoJSON is widely used used throughout spatial web practices and software and combines well with IIIF data and philosophies.  The Cookbook recipe "Represent Canvas Fragment as a Geographic Area in a Web Mapping Client" was produced in Aprial 2021 and laid the foundation for how IIIF Maps could begin to intertwine the technologies.
+IIIF had already incorporated Web Annotation which allows for the linking of external data to internal resources.  In order for that external data to be geospatial, an ontology for geospatial descriptors was required.  IIIF Maps TSG focused on GeoJSON, and in particular GeoJSON-LD, for the existing Linked Data vocabulary.  The Cookbook recipe "Represent Canvas Fragment as a Geographic Area in a Web Mapping Client" was produced in April 2021 and laid the foundation for how IIIF Maps could begin to intertwine the technologies.
 * [Link a IIIF resource to a point on a map](https://github.com/IIIF/iiif-stories/issues/135)
 * [Linking a geo bounding box for a map](https://github.com/IIIF/iiif-stories/issues/133)
 * [Geo-coding a page of an atlas](https://github.com/IIIF/iiif-stories/issues/132)
@@ -34,9 +34,9 @@ IIIF had already incorporated Web Annotation which allows for the linking of ext
 #### Create an extension which would allow the storage and presentation of Georeferencing information for a historical map.
 Once GeoJSON was proven effective, IIIF Maps TSG got to work on its first extension to add a new technical property called "navPlace".  The navPlace Extension sought to make geospatial data a primary data point of IIIF resources instead of treating it as supplementary or second class data.  It came to fruition in October 2021.
 
-The previously mentioned output focused on "geolocation", which is only a minor branch of what researchers and technologists do in the geospatial realm.  It was made clear that another popular mechanic called "georeferencing" was practiced for old and modern maps.  IIIF Maps TSG shifted focus to this usage of geospatial data and began developing an Annotation pattern by which IIIF resources could be georeferenced.  
+The previously mentioned output focused on "geolocation", which is only a minor branch of what researchers and technologists do in the geospatial realm.  It was made clear that another popular mechanic called "georeferencing" was practiced for old and modern maps.  IIIF Maps TSG shifted focus to this usage of geospatial data and began developing an annotation pattern by which IIIF resources could be georeferenced.  
 
-The Georeference Extension was produced and challenged the capabilities of the IIIF APIs in relation to Linked Data.  After careful study, the IIIF API proved extendable for this technology as well and the Georeference Extension was released in May 2023.
+The IIIF Presentation API proved extendable for this technology as well and the Georeference Extension was released in May 2023.
 * [Georeferencing a IIIF Map](https://github.com/IIIF/iiif-stories/issues/129)
 * [Masking or identifying the region of a page which contains a map](https://github.com/IIIF/iiif-stories/issues/127)
 * [Using IIIF Maps in a GIS System](https://github.com/IIIF/iiif-stories/issues/126)
